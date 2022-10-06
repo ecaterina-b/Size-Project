@@ -1,0 +1,48 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 6em;
+    margin-top: 5px;
+}
+.misure {
+    border-bottom: 1px solid #e6e6e6;
+}
+.size {
+    margin-left: 20px;
+    
+    
+}
+.size h2 {
+    font-weight: normal;
+    font-size: 30px;
+}
+.size p{
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.info-testo {
+    padding: 15px;
+}
+.titolo-info {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.info-misure img{
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.info-misure img::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.5);
+
+}

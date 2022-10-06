@@ -1,0 +1,52 @@
+{
+  "Products": [
+    {
+      "name": "PIOMBO Shacket in cotone stampa paisley",
+      "image": "https://www.ovs.it/dw/image/v2/AAKZ_PRD/on/demandware.static/-/Sites-ovs-it-master/default/dwb603f562/images/hi-res/12182523.jpg?sw=800&q=100",
+      "category": "womanTop",
+      "gender": "Female"
+    },
+    {
+      "name": "T-shirt a coste piatte in lurex",
+      "image": "https://www.ovs.it/dw/image/v2/AAKZ_PRD/on/demandware.static/-/Sites-ovs-it-master/default/dwbe5663db/images/hi-res/12183606.jpg?sw=800&q=100",
+      "category": "womanTop",
+      "gender": "Female"
+    },
+    {
+      "name": "PIOMBO Pantaloni chino in cotone stretch",
+      "image": "https://www.ovs.it/dw/image/v2/AAKZ_PRD/on/demandware.static/-/Sites-ovs-it-master/default/dw2bf16737/images/hi-res/12187318.jpg?sw=800&q=100",
+      "category": "womanBottom",
+      "gender": "Female"
+    },
+    {
+      "name": "Gonna con fantasia check",
+      "image": "https://www.ovs.it/dw/image/v2/AAKZ_PRD/on/demandware.static/-/Sites-ovs-it-master/default/dw0be8a8a1/images/hi-res/12150421.jpg?sw=800&q=100",
+      "category": "womanBottom",
+      "gender": "Female"
+    },
+    {
+      "name": "PIOMBO Pullover con lavorazione punto riso",
+      "image": "https://www.ovs.it/dw/image/v2/AAKZ_PRD/on/demandware.static/-/Sites-ovs-it-master/default/dw5151cf67/images/hi-res/12172993.jpg?sw=800&q=100",
+      "category": "manTop",
+      "gender": "Male"
+    },
+    {
+      "name": "Gilet con scollo a V e bottoni",
+      "image": "https://www.ovs.it/dw/image/v2/AAKZ_PRD/on/demandware.static/-/Sites-ovs-it-master/default/dw42575d68/images/hi-res/12131362.jpg?sw=800&q=100",
+      "category": "manTop",
+      "gender": "Male"
+    },
+    {
+      "name": "Jeans slim fit con scoloriture",
+      "image": "https://www.ovs.it/dw/image/v2/AAKZ_PRD/on/demandware.static/-/Sites-ovs-it-master/default/dw28094a10/images/hi-res/12134562.jpg?sw=800&q=100",
+      "category": "manBottom",
+      "gender": "Male"
+    },
+    {
+      "name": "JJeans slim fit stretch",
+      "image": "https://www.ovs.it/dw/image/v2/AAKZ_PRD/on/demandware.static/-/Sites-ovs-it-master/default/dw2d01c2cb/images/hi-res/12131340.jpg?sw=800&q=100",
+      "category": "manBottom",
+      "gender": "Male"
+    }
+  ]
+}

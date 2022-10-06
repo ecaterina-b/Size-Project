@@ -1,0 +1,35 @@
+.plp {
+    width: 90%;
+    margin: 2em auto 2em auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 15px;
+
+}
+
+.product {
+    width: 18em;
+    text-align: center;
+    margin: auto;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+.product p {
+    margin-bottom: 10px;
+}
+.product span {
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 5px;
+    cursor: pointer;
+    color: #787878;
+}
+
+.product span:hover{
+    color: rgb(253, 154, 61);
+    border: 1px solid rgb(253, 154, 61);
+}

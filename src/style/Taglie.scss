@@ -1,0 +1,35 @@
+.container-taglie {
+    text-align: center;
+}
+
+.title-taglie {
+    font-weight: 400;
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+.griglia-taglie {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 10px;
+}
+
+.grid-box {
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+    width: 4em;
+    height: 4em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+

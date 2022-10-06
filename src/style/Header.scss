@@ -1,0 +1,25 @@
+header {
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.close-btn {
+    height: 100%;
+    width: 5em;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    
+}
+.close-btn::after{
+    content: "\00d7";
+    font-size: 3em;
+    color: gray;
+}
+.header-name  {
+    align-self: center;
+    font-size: 15px;
+}

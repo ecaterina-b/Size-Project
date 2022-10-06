@@ -1,0 +1,17 @@
+{
+    "womanTop": {
+        "chest": "https://www.ovs.it/on/demandware.static/-/Sites/default/size-guide/adult/female/range-1/chest_small.jpg",
+        "waist": "https://www.ovs.it/on/demandware.static/-/Sites/default/size-guide/adult/female/range-1/waist_small.jpg",
+        "hips": "https://www.ovs.it/on/demandware.static/-/Sites/default/size-guide/adult/female/range-1/hips_small.jpg"
+    },
+    "womanBottom": {
+        "waist": "https://www.ovs.it/on/demandware.static/-/Sites/default/size-guide/adult/female/range-1/waist_small.jpg",
+        "hips": "https://www.ovs.it/on/demandware.static/-/Sites/default/size-guide/adult/female/range-1/hips_small.jpg"
+    },
+    "manTop": {
+        "chest": "https://www.ovs.it/on/demandware.static/-/Sites/default/size-guide/adult/male/range-1/chest_small.jpg"
+    },
+    "manBottom": {
+        "waist": "https://www.ovs.it/on/demandware.static/-/Sites/default/size-guide/adult/male/range-1/waist_small.jpg"
+    }
+}

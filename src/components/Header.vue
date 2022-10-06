@@ -1,18 +1,25 @@
 <template>
   <header>
-    <img :src="products.Products[$store.state.itemIndex].image" alt="#">
-    <p class="header-name"> {{products.Products[$store.state.itemIndex].name}} </p>
-    <button class="close-btn" v-on:click="$store.commit('close')"></button>
+    <img :src="Info.image" alt="#">
+    <p class="header-name"> {{Info.name}} </p>
+    <button class="close-btn" v-on:click="close()" :class="{ active : active_el == 0 }"></button>
   </header>
 </template>
 
 <script>
-import products from '../products.json'
 export default {
   name: 'HeaderComponent',
+  props: ['Info'],
+  emits: ['isOpen'],
   data() {
     return {
-      products: products
+      isOpen: true,
+      active_el: null
+    }
+  },
+  methods: {
+    close:function(){
+      this.$emit('isOpen', this.isOpen = false);
     }
   }
 }

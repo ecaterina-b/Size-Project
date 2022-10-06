@@ -4,10 +4,10 @@
     <p class="text-taglie">{{config.instructionsMain}}</p>
     <ul class="griglia-taglie">
         <li class="grid-box"
-        v-for="(size, index) in $store.state.sizes" :key="'item-'+index"
-        v-on:click="$store.commit('activate',index)" 
-        :class="{ active : $store.state.active_el == index && $store.state.isActive == true }">
-          <span>{{ $store.state.category.includes('Top') ? $store.state.sizes[index].similarSizes[0] : $store.state.sizes[index].code }}</span>
+        v-for="(size, index) in Sizes" :key="'item-'+index"
+        v-on:click="activate(index)" 
+        :class="{ active : active_el == index && OpenBtn == true }">
+          <span>{{ Category.includes('Top') ? size.similarSizes[0] : size.code }}</span>
         </li>
     </ul>
   </div>
@@ -15,11 +15,33 @@
 
 <script>
 import configuration from '../configuration.json'
+import measuresImages from '../measuresImages.json'
 export default {
   name: 'TaglieComponent',
+  emits: ['activeTab', 'info', 'pics', 'Open_btn'],
+  props: ['Info', 'Category', 'Sizes', 'OpenBtn'],
   data() {
     return {
-      config: configuration
+      active_el: null,
+      config: configuration,
+      activeTab: false,
+      images: measuresImages,
+      pics: {},
+      Open_btn: false
+    }
+  },
+  methods: {
+    activate:function(el){
+      this.active_el = el;
+      this.$emit('activeTab', !this.activeTab);
+      this.$emit('info', this.Sizes[el].measures);
+      this.$emit('Open_btn', !this.Open_btn);
+      for(let i=0; i < Object.keys(this.images).length ;i++){
+        if((Object.keys(this.images)[i]) === this.Category) {
+          this.pics = (Object.values(this.images)[i])
+        }
+      }
+      this.$emit('pics', this.pics);
     }
   }
 }

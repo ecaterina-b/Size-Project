@@ -1,7 +1,8 @@
 <template>
   <div class="plp">
-    <ProductPdp
+    <ProductPdp v-on="$listeners"
       v-for="(prod, index) in productInfo"
+      :prod="prod"
       :index="index"
       :key="index"
       :productInfo="productInfo"

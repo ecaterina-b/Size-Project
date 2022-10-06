@@ -1,6 +1,6 @@
 <template>
   <div class="container-taglie">
-    <h1 class="title-taglie">{{config.title}}</h1>
+    <h1 class="title-taglie">{{$store.state.lang == 'en' ? config.en.title : config.it.title}}</h1>
     <p class="text-taglie">{{config.instructionsMain}}</p>
     <ul class="griglia-taglie">
         <li class="grid-box"

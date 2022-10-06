@@ -14,7 +14,8 @@ export default new Vuex.Store({
     sizes: [],
     isActive: false,
     active_el: null,
-    MeasureImg: {}
+    MeasureImg: {},
+    lang: 'it'
   },
   mutations: {
     open(state, id) {
@@ -38,6 +39,13 @@ export default new Vuex.Store({
         if(state.category === Object.keys(measuresImages)[i]) {
           state.MeasureImg = (Object.values(measuresImages)[i])
         }
+      }
+    },
+    changeLang(state) {
+      if(state.lang == 'en') {
+        state.lang = 'it'
+      } else {
+        state.lang = 'en'
       }
     }
   },

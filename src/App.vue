@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <span class="lang" v-on:click="$store.commit('changeLang')">language: {{$store.state.lang}}</span>
     <div class="overlay" :class="{hide : $store.state.isOpen === false}"></div>
     <ProductsPlp />
     <Container

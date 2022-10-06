@@ -1,281 +1,317 @@
 {
+  "it": {
     "title": "Guida alle taglie",
-      "instructions-scroll": "Trova la taglia scorrendo le misure per età:",
-      "instructionsMain": "Seleziona una taglia e verifica le tue misure:",
-      "instructions-age": "Seleziona un'età e verifica le tue misure:",
-      "height": "altezza",
-      "chest": "petto",
-      "waist": "giro vita",
-      "hips": "fianchi",
-      "legHeight": "altezza gamba",
-      "neck": "collo",
-      "weight": "peso",
-      "howToMeasure": {
-        "title": "Sai come misurarti?",
-        "height": "Appoggiati ad un muro facendo toccare i talloni, la schiena e la testa alla parete. Il punto più alto raggiunto dalla testa è l'altezza.",
-        "waist": "Usa il metro per circondare la vita (una specie di cintura) in corrispondenza della vita naturale, che si trova sopra l’ombelico e sotto la gabbia toracica. Se ti pieghi di lato, la piega che si forma è la tua vita naturale.",
-        "hips": "Inizia da un fianco e avvolgi il metro intorno alla tua parte posteriore, intorno all’altro e indietro da dove hai iniziato. Assicurati che il nastro sia sopra la parte dei glutei. Poichè assicurarsi che il nastro sia in piano può essere difficile, provare a farlo davanti a uno specchio.",
-        "legHeight": "La lunghezza della gamba esterna è la misura che determina la lunghezza dei tuoi pantaloni. Determina a gamba dritta la lunghezza dai fianchi fino alla pianta del piede.",
-        "chest": "Posiziona un’estremità del metro nella parte più ampia del busto, avvolgilo (sotto le ascelle, intorno alle scapole e indietro in avanti) per ottenere la misurazione.",
-        "neck": "Avvolgete il metro sartoriale intorno al collo. Tenete fermo il punto di intersezione del metro ed infilate un dito tra il metro ed il collo così da creare uno spazio extra nella misurazione.",
-        "footLength": "Appoggio il piede sopra un metro avendo cura di far combiare l'estremita del tallone sullo 0 (zero).",
-        "hand": "Per misurare la mano."
-      },
-    "categories": {
-        "womanTop": {
-            "mode": "sections",
-            "gender": "female",
-            "age": "adult",
-            "sizes": [
-              {
-                "code": "38",
-                "similarSizes": ["XS"],
-                "correspondingSizes": ["34 EU"],
-                "measures": {
-                  "chest": "83 cm",
-                  "waist": "63 cm",
-                  "hips": "89 cm"
-                }
-              },
-              {
-                "code": "40",
-                "similarSizes": ["S"],
-                "correspondingSizes": ["36 EU"],
-                "measures": {
-                  "chest": "87 cm",
-                  "waist": "67 cm",
-                  "hips": "93 cm"
-                }
-              },
-              {
-                "code": "42",
-                "similarSizes": ["M"],
-                "correspondingSizes": ["38 EU"],
-                "measures": {
-                  "chest": "91 cm",
-                  "waist": "71 cm",
-                  "hips": "97 cm"
-                }
-              },
-              {
-                "code": "44",
-                "similarSizes": ["L"],
-                "correspondingSizes": ["40 EU"],
-                "measures": {
-                  "chest": "95 cm",
-                  "waist": "75 cm",
-                  "hips": "101 cm"
-                }
-              },
-              {
-                "code": "46",
-                "similarSizes": ["XL"],
-                "correspondingSizes": ["42 EU"],
-                "measures": {
-                  "chest": "99 cm",
-                  "waist": "79 cm",
-                  "hips": "105 cm"
-                }
-              },
-              {
-                "code": "48",
-                "similarSizes": ["XXL"],
-                "correspondingSizes": ["44 EU"],
-                "measures": {
-                  "chest": "103 cm",
-                  "waist": "83 cm",
-                  "hips": "109 cm"
-                }
-              },
-              {
-                "code": "50",
-                "similarSizes": ["XXXL"],
-                "correspondingSizes": ["46 EU"],
-                "measures": {
-                  "chest": "107 cm",
-                  "waist": "87 cm",
-                  "hips": "113 cm"
-                }
-              }
-            ]
-          },
-          "womanBottom": {
-            "mode": "sections",
-            "gender": "female",
-            "age": "adult",
-            "sizes": [
-              {
-                "code": "38",
-                "similarSizes": ["XS"],
-                "correspondingSizes": ["24 US", "34 EU"],
-                "measures": {
-                  "waist": "63 cm",
-                  "hips": "89 cm"
-                }
-              },
-              {
-                "code": "40",
-                "similarSizes": ["S"],
-                "correspondingSizes": ["26 US", "36 EU"],
-                "measures": {
-                  "waist": "67 cm",
-                  "hips": "93 cm"
-                }
-              },
-              {
-                "code": "42",
-                "similarSizes": ["S"],
-                "correspondingSizes": ["28 US", "38 EU"],
-                "measures": {
-                  "waist": "71 cm",
-                  "hips": "97 cm"
-                }
-              },
-              {
-                "code": "44",
-                "similarSizes": ["M"],
-                "correspondingSizes": ["30 US", "40 EU"],
-                "measures": {
-                  "waist": "75 cm",
-                  "hips": "101 cm"
-                }
-              },
-              {
-                "code": "46",
-                "similarSizes": ["L"],
-                "correspondingSizes": ["32 US", "42 EU"],
-                "measures": {
-                  "waist": "79 cm",
-                  "hips": "105 cm"
-                }
-              },
-              {
-                "code": "48",
-                "similarSizes": ["L"],
-                "correspondingSizes": ["34 US", "44 EU"],
-                "measures": {
-                  "waist": "83 cm",
-                  "hips": "109 cm"
-                }
-              },
-              {
-                "code": "50",
-                "similarSizes": ["XL"],
-                "correspondingSizes": ["36 US", "46 EU"],
-                "measures": {
-                  "waist": "87 cm",
-                  "hips": "113 cm"
-                }
-              },
-              {
-                "code": "52",
-                "similarSizes": ["XXL"],
-                "correspondingSizes": ["38 US", "48 EU"],
-                "measures": {
-                  "waist": "91 cm",
-                  "hips": "117 cm"
-                }
-              }
-            ]
-          },
-          "manTop": {
-            "mode": "sections",
-            "gender": "male",
-            "age": "adult",
-            "sizes": [
-              {
-                "code": "46",
-                "similarSizes": ["S"],
-                "measures": {
-                  "chest": "90-93 cm"
-                }
-              },
-              {
-                "code": "48",
-                "similarSizes": ["M"],
-                "measures": {
-                  "chest": "95-97 cm"
-                }
-              },
-              {
-                "code": "50",
-                "similarSizes": ["L"],
-                "measures": {
-                  "chest": "99-100 cm"
-                }
-              },
-              {
-                "code": "54",
-                "similarSizes": ["XL"],
-                "measures": {
-                  "chest": "107-109 cm"
-                }
-              },
-              {
-                "code": "58",
-                "similarSizes": ["XXL"],
-                "measures": {
-                  "chest": "115-117 cm"
-      
-                }
-              }
-            ]
-          },
-          "manBottom": {
-            "mode": "sections",
-            "gender": "male",
-            "age": "adult",
-            "sizes": [
-              {
-                "code": "44",
-                "similarSizes": ["S"],
-                "measures": {
-                  "waist": "75-77 cm"
-                }
-              },
-              {
-                "code": "46",
-                "similarSizes": ["M"],
-                "measures": {
-                  "waist": "79-81 cm"
-                }
-              },
-              {
-                "code": "48",
-                "similarSizes": ["M"],
-                "measures": {
-                  "waist": "83-85 cm"
-                }
-              },
-              {
-                "code": "50",
-                "similarSizes": ["L"],
-                "measures": {
-                  "waist": "87-89 cm"
-                }
-              },
-              {
-                "code": "52",
-                "similarSizes": ["L"],
-                "measures": {
-                  "waist": "91-93 cm"
-                }
-              },
-              {
-                "code": "54",
-                "similarSizes": ["XL"],
-                "measures": {
-                  "waist": "95-97 cm"
-                }
-              },
-              {
-                "code": "56",
-                "similarSizes": ["XL"],
-                "measures": {
-                  "waist": "99-101 cm"
-                }
-              }
-            ]
-          }
+    "instructions-scroll": "Trova la taglia scorrendo le misure per età:",
+    "instructionsMain": "Seleziona una taglia e verifica le tue misure:",
+    "instructions-age": "Seleziona un'età e verifica le tue misure:",
+    "height": "altezza",
+    "chest": "petto",
+    "waist": "giro vita",
+    "hips": "fianchi",
+    "legHeight": "altezza gamba",
+    "neck": "collo",
+    "weight": "peso",
+    "howToMeasure": {
+      "title": "Sai come misurarti?",
+      "height": "Appoggiati ad un muro facendo toccare i talloni, la schiena e la testa alla parete. Il punto più alto raggiunto dalla testa è l'altezza.",
+      "waist": "Usa il metro per circondare la vita (una specie di cintura) in corrispondenza della vita naturale, che si trova sopra l’ombelico e sotto la gabbia toracica. Se ti pieghi di lato, la piega che si forma è la tua vita naturale.",
+      "hips": "Inizia da un fianco e avvolgi il metro intorno alla tua parte posteriore, intorno all’altro e indietro da dove hai iniziato. Assicurati che il nastro sia sopra la parte dei glutei. Poichè assicurarsi che il nastro sia in piano può essere difficile, provare a farlo davanti a uno specchio.",
+      "legHeight": "La lunghezza della gamba esterna è la misura che determina la lunghezza dei tuoi pantaloni. Determina a gamba dritta la lunghezza dai fianchi fino alla pianta del piede.",
+      "chest": "Posiziona un’estremità del metro nella parte più ampia del busto, avvolgilo (sotto le ascelle, intorno alle scapole e indietro in avanti) per ottenere la misurazione.",
+      "neck": "Avvolgete il metro sartoriale intorno al collo. Tenete fermo il punto di intersezione del metro ed infilate un dito tra il metro ed il collo così da creare uno spazio extra nella misurazione.",
+      "footLength": "Appoggio il piede sopra un metro avendo cura di far combiare l'estremita del tallone sullo 0 (zero).",
+      "hand": "Per misurare la mano."
     }
+  },
+  "en": {
+    "title": "Size Guide",
+    "instructions-scroll": "Find the right size by scrolling through the measurements according to age:",
+    "instructions-main": "Select a size and check your measurements:",
+    "instructions-age": "Select an age and check your measurements:",
+    "height": "height",
+    "chest": "chest",
+    "waist": "waist",
+    "hips": "hips",
+    "legHeight": "leg",
+    "neck": "neck",
+    "footLength": "foot length",
+    "hand": "hand",
+    "month": "month",
+    "months": "months",
+    "year": "year",
+    "years": "years",
+    "weight": "weight",
+    "footSize": "shoe size",
+    "correspondsTo": "Corresponds to:",
+    "sizeSimilarSize": "Size %size% fits those who wear a <strong>size %equivalent%</strong> in other OVS items.",
+    "sizeSimilarSizes": "Size %size% fits those who wear <strong>sizes %equivalent%</strong> in other OVS items.",
+    "howToMeasure": {
+      "title": "Do you know how to measure yourself?",
+      "height": "Stand up against a wall, heels touching, and head and back flat against the wall. Your height is the highest point touched by your head.",
+      "waist": "Loop a tape measure around your waist (like a belt), level with your waist, which is above your navel and just under your rib cage. If you bend to one side, the fold that forms is your natural waistline.",
+      "hips": "Hold the end of the tape on one hip and loop the rest around the widest part of your bottom, so that it comes around to the point where you started. Make sure that the tape is passing over your bottom. Since it may be difficult to make sure that the tape is flat, try taking this measurement in front of a mirror.",
+      "legHeight": "The outer leg length is the measurement you need for the correct trouser length. It is the distance between your hips and the sole of your foot.",
+      "chest": "Measure around the fullest part of your torso. Loop the tape under your arms and over the shoulder blades so that the ends of the tape come together at the front.",
+      "neck": "Loop the measuring tape around your neck. Hold the tape in place where the two parts meet, and slide a finger between the tape and your neck to create extra space when taking the measurement.",
+      "footLength": "Place your foot on top of a measuring tape, making sure that the end of your heel is touching the 0 (zero).",
+      "hand": "To measure your hand:"
+    }
+  },
+  "categories": {
+      "womanTop": {
+          "mode": "sections",
+          "gender": "female",
+          "age": "adult",
+          "sizes": [
+            {
+              "code": "38",
+              "similarSizes": ["XS"],
+              "correspondingSizes": ["34 EU"],
+              "measures": {
+                "chest": "83 cm",
+                "waist": "63 cm",
+                "hips": "89 cm"
+              }
+            },
+            {
+              "code": "40",
+              "similarSizes": ["S"],
+              "correspondingSizes": ["36 EU"],
+              "measures": {
+                "chest": "87 cm",
+                "waist": "67 cm",
+                "hips": "93 cm"
+              }
+            },
+            {
+              "code": "42",
+              "similarSizes": ["M"],
+              "correspondingSizes": ["38 EU"],
+              "measures": {
+                "chest": "91 cm",
+                "waist": "71 cm",
+                "hips": "97 cm"
+              }
+            },
+            {
+              "code": "44",
+              "similarSizes": ["L"],
+              "correspondingSizes": ["40 EU"],
+              "measures": {
+                "chest": "95 cm",
+                "waist": "75 cm",
+                "hips": "101 cm"
+              }
+            },
+            {
+              "code": "46",
+              "similarSizes": ["XL"],
+              "correspondingSizes": ["42 EU"],
+              "measures": {
+                "chest": "99 cm",
+                "waist": "79 cm",
+                "hips": "105 cm"
+              }
+            },
+            {
+              "code": "48",
+              "similarSizes": ["XXL"],
+              "correspondingSizes": ["44 EU"],
+              "measures": {
+                "chest": "103 cm",
+                "waist": "83 cm",
+                "hips": "109 cm"
+              }
+            },
+            {
+              "code": "50",
+              "similarSizes": ["XXXL"],
+              "correspondingSizes": ["46 EU"],
+              "measures": {
+                "chest": "107 cm",
+                "waist": "87 cm",
+                "hips": "113 cm"
+              }
+            }
+          ]
+        },
+        "womanBottom": {
+          "mode": "sections",
+          "gender": "female",
+          "age": "adult",
+          "sizes": [
+            {
+              "code": "38",
+              "similarSizes": ["XS"],
+              "correspondingSizes": ["24 US", "34 EU"],
+              "measures": {
+                "waist": "63 cm",
+                "hips": "89 cm"
+              }
+            },
+            {
+              "code": "40",
+              "similarSizes": ["S"],
+              "correspondingSizes": ["26 US", "36 EU"],
+              "measures": {
+                "waist": "67 cm",
+                "hips": "93 cm"
+              }
+            },
+            {
+              "code": "42",
+              "similarSizes": ["S"],
+              "correspondingSizes": ["28 US", "38 EU"],
+              "measures": {
+                "waist": "71 cm",
+                "hips": "97 cm"
+              }
+            },
+            {
+              "code": "44",
+              "similarSizes": ["M"],
+              "correspondingSizes": ["30 US", "40 EU"],
+              "measures": {
+                "waist": "75 cm",
+                "hips": "101 cm"
+              }
+            },
+            {
+              "code": "46",
+              "similarSizes": ["L"],
+              "correspondingSizes": ["32 US", "42 EU"],
+              "measures": {
+                "waist": "79 cm",
+                "hips": "105 cm"
+              }
+            },
+            {
+              "code": "48",
+              "similarSizes": ["L"],
+              "correspondingSizes": ["34 US", "44 EU"],
+              "measures": {
+                "waist": "83 cm",
+                "hips": "109 cm"
+              }
+            },
+            {
+              "code": "50",
+              "similarSizes": ["XL"],
+              "correspondingSizes": ["36 US", "46 EU"],
+              "measures": {
+                "waist": "87 cm",
+                "hips": "113 cm"
+              }
+            },
+            {
+              "code": "52",
+              "similarSizes": ["XXL"],
+              "correspondingSizes": ["38 US", "48 EU"],
+              "measures": {
+                "waist": "91 cm",
+                "hips": "117 cm"
+              }
+            }
+          ]
+        },
+        "manTop": {
+          "mode": "sections",
+          "gender": "male",
+          "age": "adult",
+          "sizes": [
+            {
+              "code": "46",
+              "similarSizes": ["S"],
+              "measures": {
+                "chest": "90-93 cm"
+              }
+            },
+            {
+              "code": "48",
+              "similarSizes": ["M"],
+              "measures": {
+                "chest": "95-97 cm"
+              }
+            },
+            {
+              "code": "50",
+              "similarSizes": ["L"],
+              "measures": {
+                "chest": "99-100 cm"
+              }
+            },
+            {
+              "code": "54",
+              "similarSizes": ["XL"],
+              "measures": {
+                "chest": "107-109 cm"
+              }
+            },
+            {
+              "code": "58",
+              "similarSizes": ["XXL"],
+              "measures": {
+                "chest": "115-117 cm"
+    
+              }
+            }
+          ]
+        },
+        "manBottom": {
+          "mode": "sections",
+          "gender": "male",
+          "age": "adult",
+          "sizes": [
+            {
+              "code": "44",
+              "similarSizes": ["S"],
+              "measures": {
+                "waist": "75-77 cm"
+              }
+            },
+            {
+              "code": "46",
+              "similarSizes": ["M"],
+              "measures": {
+                "waist": "79-81 cm"
+              }
+            },
+            {
+              "code": "48",
+              "similarSizes": ["M"],
+              "measures": {
+                "waist": "83-85 cm"
+              }
+            },
+            {
+              "code": "50",
+              "similarSizes": ["L"],
+              "measures": {
+                "waist": "87-89 cm"
+              }
+            },
+            {
+              "code": "52",
+              "similarSizes": ["L"],
+              "measures": {
+                "waist": "91-93 cm"
+              }
+            },
+            {
+              "code": "54",
+              "similarSizes": ["XL"],
+              "measures": {
+                "waist": "95-97 cm"
+              }
+            },
+            {
+              "code": "56",
+              "similarSizes": ["XL"],
+              "measures": {
+                "waist": "99-101 cm"
+              }
+            }
+          ]
+        }
+  }
 }

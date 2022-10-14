@@ -3,7 +3,8 @@
     width: 30em;
     position: absolute;
     top: 0;
-    left: 35%;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: white;
     z-index: 100;
     overflow: auto;

@@ -33,3 +33,12 @@
     color: rgb(253, 154, 61);
     border: 1px solid rgb(253, 154, 61);
 }
+
+@media (max-width: 600px) {
+    .plp {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2em;
+    }
+}
